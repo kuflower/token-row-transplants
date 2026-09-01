@@ -10,4 +10,4 @@ nbconvert==7.16.6
 pip==26.2.1
 pre-commit==4.6.2
 pytest==9.0.3
-ruff==0.16.0
+ruff==0.16.5
