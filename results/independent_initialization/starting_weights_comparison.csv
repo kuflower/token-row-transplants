@@ -1,0 +1,9 @@
+comparison,language,outcome,units,n,estimate,sample_sd,standard_error,ci_confidence,ci_low,ci_high
+same_language_same_starting_weights_effect,spanish,step_zero,nats_per_unit_similarity,12,1.21410384109018,0.092304716577453,0.0266460764817323,0.95,1.15545622217922,1.27275146000114
+same_language_same_starting_weights_effect,spanish,learning_curve_auc,nats_times_log_update_per_unit_similarity,12,5.41939684686428,0.312102757776199,0.0900963056084563,0.95,5.22109621524099,5.61769747848758
+same_language_same_starting_weights_effect,german,step_zero,nats_per_unit_similarity,12,1.28557574916353,0.0649701546395431,0.0187552681352159,0.95,1.24429568232438,1.32685581600268
+same_language_same_starting_weights_effect,german,learning_curve_auc,nats_times_log_update_per_unit_similarity,12,5.16111261775123,0.280786136204428,0.0810559756611707,0.95,4.98270961818424,5.33951561731821
+reduction_when_starting_weights_differ,spanish,step_zero,nats_per_unit_similarity,12,0.843806991165942,0.321897215400881,0.0929237219815445,0.95,0.639283258064081,1.0483307242678
+reduction_when_starting_weights_differ,spanish,learning_curve_auc,nats_times_log_update_per_unit_similarity,12,4.20973654524126,0.769690955045379,0.222190640044135,0.95,3.72069824379286,4.69877484668966
+reduction_when_starting_weights_differ,german,step_zero,nats_per_unit_similarity,12,1.2282134934849,0.207239645818572,0.0598249326500574,0.95,1.09653970451864,1.35988728245116
+reduction_when_starting_weights_differ,german,learning_curve_auc,nats_times_log_update_per_unit_similarity,12,4.46907534981298,0.423988320441936,0.122394885470204,0.95,4.19968602322195,4.73846467640402

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite it using these metadata.
+title: Token Row Transplants
+type: software
+version: 1.0.0
+authors:
+  - given-names: Sangmi
+    family-names: Lee
+repository-code: https://github.com/kuflower/token-row-transplants
+abstract: >-
+  This repository contains the experiments for the MSc thesis When Do Token Rows
+  Transfer? Cross-Lingual Token-Row Transplants in Transformer Language Models.
+  The code moves complete tied token matrices between compact decoder-only language
+  models and measures how the spelling effect changes with training-language match,
+  donor run, row-to-token assignment, and model initialization. It also includes
+  experiment configurations, result tables, figures, and a results notebook.
+keywords:
+  - cross-lingual transfer
+  - language modeling
+  - token embeddings
+  - token rows
+  - transformer language models
+  - weight tying
+license: MIT

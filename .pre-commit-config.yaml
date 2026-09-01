@@ -1,0 +1,20 @@
+repos:
+  - repo: local
+    hooks:
+      - id: black
+        name: Format Python with Black
+        entry: python -m black
+        language: system
+        files: \.(py|pyi|ipynb)$
+      - id: ruff
+        name: Lint Python with Ruff
+        entry: python -m ruff check
+        language: system
+        files: \.(py|pyi)$
+      - id: results-notebook-freshness
+        name: Check results notebook
+        entry: python -m pytest -q tests/unit/test_results_notebook.py
+        language: system
+        pass_filenames: false
+        files: >-
+          ^(notebooks/results_overview\.ipynb|results/.*\.csv|src/token_row_transplants/plots\.py|scripts/render_analysis_figures\.py)$

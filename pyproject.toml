@@ -1,0 +1,108 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "token-row-transplants"
+version = "1.0.0"
+description = "Controlled token-row transplant experiments on transformer-body compatibility"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+license-files = ["LICENSE", "DATA_LICENSE.md"]
+authors = [{ name = "Sangmi Lee" }]
+keywords = [
+  "cross-lingual transfer",
+  "interpretability",
+  "language modeling",
+  "reproducible research",
+]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.12",
+  "Typing :: Typed",
+]
+dependencies = ["numpy>=2,<3"]
+
+[project.optional-dependencies]
+dev = [
+  "black[jupyter]>=25,<27",
+  "build>=1,<2",
+  "ipykernel>=6,<8",
+  "matplotlib>=3.9,<4",
+  "mypy>=1.14,<2",
+  "nbconvert>=7,<8",
+  "pandas>=2,<3",
+  "pre-commit>=4,<5",
+  "pytest>=8,<10",
+  "ruff>=0.9,<1",
+  "scipy>=1.14,<2",
+  "tokenizers>=0.22,<1",
+  "torch>=2.8,<3",
+]
+# Read and execute the results notebook without the training stack.
+notebook = [
+  "ipykernel>=6,<8",
+  "matplotlib>=3.9,<4",
+  "nbconvert>=7,<8",
+  "pandas>=2,<3",
+  "scipy>=1.14,<2",
+]
+# Model training, probe evaluation, and analysis.
+run = [
+  "matplotlib>=3.9,<4",
+  "numpy==2.5.1",
+  "torch>=2.8,<3",
+  "tokenizers>=0.22,<1",
+  "pandas>=2,<3",
+  "scipy>=1.14,<2",
+]
+
+[project.urls]
+Homepage = "https://github.com/kuflower/token-row-transplants"
+Issues = "https://github.com/kuflower/token-row-transplants/issues"
+Repository = "https://github.com/kuflower/token-row-transplants.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["token_row_transplants*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+token_row_transplants = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+# Ruff is the linter only; formatting is Black's.
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+src = ["src", "tests", "experiments", "scripts"]
+include = [
+  "src/**/*.py",
+  "tests/**/*.py",
+  "experiments/**/*.py",
+  "scripts/**/*.py",
+]
+
+[tool.ruff.lint]
+select = ["B", "C4", "E", "F", "I", "RUF", "SIM", "UP"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = [
+  "src/token_row_transplants",
+]
+
+[[tool.mypy.overrides]]
+module = ["tokenizers", "tokenizers.*"]
+ignore_missing_imports = true

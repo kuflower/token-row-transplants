@@ -1,0 +1,9 @@
+language,claim_id,contrast_id,contrast,kind,outcome,estimate,ci_confidence,ci_low,ci_high,n
+spanish,trained_row_effect,spanish_initial_minus_correctly_assigned,Spanish trained-row spelling effect,directional,step_zero,0.930591534460394,0.95,0.88071252012937,0.980470548791417,14
+german,trained_row_effect,german_initial_minus_correctly_assigned,German trained-row spelling effect,directional,step_zero,1.03838180475662,0.95,0.980073141461223,1.09669046805201,14
+spanish,correct_assignment_advantage,spanish_correct_assignment_advantage__map_1,"Spanish correct-assignment advantage, reassignment 1",directional,step_zero,0.339191361520062,0.95,0.286332497082834,0.392050225957291,14
+spanish,correct_assignment_advantage,spanish_correct_assignment_advantage__map_2,"Spanish correct-assignment advantage, reassignment 2",directional,step_zero,0.477676795789811,0.95,0.408140465523014,0.547213126056608,14
+spanish,correct_assignment_advantage,spanish_correct_assignment_advantage__map_3,"Spanish correct-assignment advantage, reassignment 3",directional,step_zero,0.502078513289338,0.95,0.455916896301706,0.548240130276969,14
+german,correct_assignment_advantage,german_correct_assignment_advantage__map_1,"German correct-assignment advantage, reassignment 1",directional,step_zero,0.376926994362582,0.95,0.329155607477503,0.424698381247662,14
+german,correct_assignment_advantage,german_correct_assignment_advantage__map_2,"German correct-assignment advantage, reassignment 2",directional,step_zero,0.422345391484033,0.95,0.366155667309892,0.478535115658174,14
+german,correct_assignment_advantage,german_correct_assignment_advantage__map_3,"German correct-assignment advantage, reassignment 3",directional,step_zero,0.400240478255697,0.95,0.351045058742702,0.449435897768693,14

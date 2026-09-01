@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+tmp/
+.DS_Store
+
+# Corpora, token streams, model inputs, and checkpoints are local research data.
+data/
+
+# Training and evaluation outputs can be large.
+runs/
+runs_quarantine/
+results/**/runs-root/

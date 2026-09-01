@@ -1,0 +1,37 @@
+[study]
+name = "larger_decoder_assignment"
+seeds = [110, 115, 130, 132, 136, 164, 193, 211, 222, 248, 268, 271, 283, 284]
+inference_unit = "seed"
+
+[model]
+token_count = 16384
+context_length = 256
+width = 768
+layers = 12
+attention_heads = 12
+active_parameters = 97835520
+tied_token_matrix = true
+
+[training]
+parent_updates = 6100
+english_continuation_updates = 0
+batch_size = 64
+
+[comparison]
+installed_row_sources = [
+  "initial",
+  "correct_assignment",
+  "reassignment_1",
+  "reassignment_2",
+  "reassignment_3",
+]
+spelling_axes = ["spanish", "german"]
+
+[reassignment]
+method = "frequency_local_derangement"
+maximum_frequency_block_size = 33
+draw_seeds = [19301, 19302, 19303]
+
+[measurement]
+checkpoints = [0]
+minimum_contexts_per_word = 5

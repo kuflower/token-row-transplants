@@ -1,0 +1,3 @@
+include docs/METHOD.md
+include docs/REPRODUCIBILITY.md
+prune tests

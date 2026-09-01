@@ -1,0 +1,3 @@
+claim_id,claim,kind,decision,adjusted_p,alpha,multiplicity
+same_language_effect_across_initializations,Same-language spelling effect across different starting weights,directional,not_established,0.34840018701134,0.05,holm_across_two_claims
+same_over_other_language_across_initializations,Same-language rows over other-language rows across different starting weights,directional,not_established,0.999999142141614,0.05,holm_across_two_claims

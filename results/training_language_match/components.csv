@@ -1,0 +1,29 @@
+language,claim_id,contrast_id,contrast,kind,outcome,estimate,ci_confidence,ci_low,ci_high,n
+spanish,english_trained_reference_advantage,spanish_matched_minus_english_reference,Spanish matched condition minus the English reference,directional,installation_nll,3.25781096277448,0.95,3.22495851879295,3.29066340675601,12
+spanish,english_trained_reference_advantage,spanish_matched_minus_english_reference,Spanish matched condition minus the English reference,directional,weighted_english_nll,1.64971098526933,0.95,1.63496993783646,1.66445203270219,12
+german,english_trained_reference_advantage,german_matched_minus_english_reference,German matched condition minus the English reference,directional,installation_nll,3.36027172293204,0.95,3.3364331080387,3.38411033782537,12
+german,english_trained_reference_advantage,german_matched_minus_english_reference,German matched condition minus the English reference,directional,weighted_english_nll,1.65861805969213,0.95,1.6485250504906,1.66871106889367,12
+spanish,english_rows_reduce_non_english_body_gap,english_rows_on_spanish_body,English-row replacement on the Spanish body,directional,installation_nll,-1.45560242468491,0.95,-1.63734165284422,-1.27386319652561,12
+spanish,english_rows_reduce_non_english_body_gap,english_rows_on_spanish_body,English-row replacement on the Spanish body,directional,weighted_english_nll,-0.12328149947474,0.95,-0.164344663425861,-0.0822183355236204,12
+german,english_rows_reduce_non_english_body_gap,english_rows_on_german_body,English-row replacement on the German body,directional,installation_nll,-1.02161120778571,0.95,-1.15342195967996,-0.889800455891454,12
+german,english_rows_reduce_non_english_body_gap,english_rows_on_german_body,English-row replacement on the German body,directional,weighted_english_nll,-0.034212116783767,0.95,-0.065004968925471,-0.0034192646420628,12
+spanish,non_english_body_residual,spanish_body_residual_with_english_rows,Spanish-body residual with English rows,directional,installation_nll,4.71341338745939,0.95,4.53770277762346,4.88912399729532,12
+spanish,non_english_body_residual,spanish_body_residual_with_english_rows,Spanish-body residual with English rows,directional,weighted_english_nll,1.77299248474407,0.95,1.73416716079631,1.81181780869182,12
+german,non_english_body_residual,german_body_residual_with_english_rows,German-body residual with English rows,directional,installation_nll,4.38188293071774,0.95,4.24348813660661,4.52027772482887,12
+german,non_english_body_residual,german_body_residual_with_english_rows,German-body residual with English rows,directional,weighted_english_nll,1.6928301764759,0.95,1.66091043825169,1.72474991470012,12
+spanish,training_language_match,spanish_matched_benefit,Spanish matched spelling effect,directional,step_zero,0.316655442483707,0.95,0.30559228940546,0.327718595561954,12
+spanish,training_language_match,spanish_matched_benefit,Spanish matched spelling effect,directional,learning_curve_auc,0.306551526351894,0.95,0.296597920190092,0.316505132513697,12
+german,training_language_match,german_matched_benefit,German matched spelling effect,directional,step_zero,0.265986706757147,0.95,0.258727481522979,0.273245931991314,12
+german,training_language_match,german_matched_benefit,German matched spelling effect,directional,learning_curve_auc,0.263769519694058,0.95,0.254570440578681,0.272968598809435,12
+spanish,training_language_match,spanish_body_moderation,Spanish-row body moderation,directional,step_zero,0.263537617863808,0.95,0.237104099428804,0.289971136298813,12
+spanish,training_language_match,spanish_body_moderation,Spanish-row body moderation,directional,learning_curve_auc,0.228885172374875,0.95,0.212801162890783,0.244969181858968,12
+german,training_language_match,german_body_moderation,German-row body moderation,directional,step_zero,0.244647518268717,0.95,0.232535582874265,0.256759453663169,12
+german,training_language_match,german_body_moderation,German-row body moderation,directional,learning_curve_auc,0.219459183573233,0.95,0.21224374744418,0.226674619702285,12
+spanish,matched_language_row_selectivity,spanish_over_german_rows_on_spanish_body,Spanish versus German rows on the Spanish body,directional,step_zero,0.279699556454053,0.95,0.263463452660213,0.295935660247892,12
+spanish,matched_language_row_selectivity,spanish_over_german_rows_on_spanish_body,Spanish versus German rows on the Spanish body,directional,learning_curve_auc,0.248615261808644,0.95,0.233517596006295,0.263712927610993,12
+german,matched_language_row_selectivity,german_over_spanish_rows_on_german_body,German versus Spanish rows on the German body,directional,step_zero,0.208032825139693,0.95,0.197165907217609,0.218899743061776,12
+german,matched_language_row_selectivity,german_over_spanish_rows_on_german_body,German versus Spanish rows on the German body,directional,learning_curve_auc,0.217783405506014,0.95,0.211844290640766,0.223722520371261,12
+spanish,cross_body_row_effect_equivalence,spanish_rows_on_german_body,Spanish rows on the German body,equivalence,step_zero,0.053117824619899,0.9,0.0262426473102242,0.0799930019295738,12
+spanish,cross_body_row_effect_equivalence,spanish_rows_on_german_body,Spanish rows on the German body,equivalence,learning_curve_auc,0.077666353977019,0.9,0.0621056855818728,0.093227022372165,12
+german,cross_body_row_effect_equivalence,german_rows_on_spanish_body,German rows on the Spanish body,equivalence,step_zero,0.0213391884884297,0.9,0.0097358140346124,0.0329425629422469,12
+german,cross_body_row_effect_equivalence,german_rows_on_spanish_body,German rows on the Spanish body,equivalence,learning_curve_auc,0.0443103361208248,0.9,0.0339553299264094,0.0546653423152402,12

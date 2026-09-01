@@ -1,0 +1,37 @@
+[study]
+name = "training_language_match"
+seeds = [10000, 10001, 10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011]
+inference_unit = "seed"
+
+[model]
+token_count = 16384
+context_length = 256
+width = 384
+layers = 8
+attention_heads = 6
+active_parameters = 20586240
+tied_token_matrix = true
+
+[training]
+parent_updates = 6100
+english_continuation_updates = 6100
+batch_size = 64
+learning_rate = 0.0003
+minimum_learning_rate = 0.00003
+warmup_updates = 200
+weight_decay = 0.01
+
+[comparison]
+receiving_body_training_languages = ["spanish", "german", "english"]
+installed_row_sources = [
+  "initial",
+  "spanish_trained",
+  "german_trained",
+  "english_trained",
+]
+spelling_axes = ["spanish", "german"]
+equivalence_range = 0.10
+
+[measurement]
+checkpoints = [0, 50, 100, 200, 400, 800, 1500, 3000, 6000, 6100]
+minimum_contexts_per_word = 5

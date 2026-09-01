@@ -1,0 +1,7 @@
+claim_id,claim,kind,decision,adjusted_p,alpha,multiplicity
+english_trained_reference_advantage,English-trained model advantage in English NLL,directional,supported,7.02959625656508e-21,0.05,holm_across_six_claims
+english_rows_reduce_non_english_body_gap,English rows reduce the non-English-body NLL gap,directional,not_supported,0.999999998969656,0.05,holm_across_six_claims
+non_english_body_residual,Residual NLL gap from the receiving body,directional,supported,1.01704104368932e-14,0.05,holm_across_six_claims
+training_language_match,Larger spelling effect when rows and body share a training language,directional,supported,2.95785541741219e-10,0.05,holm_across_six_claims
+matched_language_row_selectivity,Matched-language rows over other-language rows,directional,supported,1.69864832851936e-12,0.05,holm_across_six_claims
+cross_body_row_effect_equivalence,Cross-body row effect within the 0.10 equivalence range,equivalence,equivalent,0.0257015316484081,0.05,holm_across_six_claims

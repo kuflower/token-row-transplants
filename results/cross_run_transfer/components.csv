@@ -1,0 +1,13 @@
+language,claim_id,contrast_id,contrast,kind,outcome,estimate,ci_confidence,ci_low,ci_high,n
+spanish,same_language_cross_run_effect,spanish_same_language_other_run_benefit,Spanish same-language cross-run spelling effect,directional,step_zero,0.287400759809549,0.95,0.275613561985294,0.299187957633803,12
+spanish,same_language_cross_run_effect,spanish_same_language_other_run_benefit,Spanish same-language cross-run spelling effect,directional,learning_curve_auc,0.275724795038081,0.95,0.269463599181981,0.28198599089418,12
+german,same_language_cross_run_effect,german_same_language_other_run_benefit,German same-language cross-run spelling effect,directional,step_zero,0.2381654076443,0.95,0.229530012809177,0.246800802479424,12
+german,same_language_cross_run_effect,german_same_language_other_run_benefit,German same-language cross-run spelling effect,directional,learning_curve_auc,0.23291185586749,0.95,0.222944121757816,0.242879589977164,12
+spanish,same_language_over_other_language,spanish_same_language_over_other_language,Spanish same-language versus other-language rows,directional,step_zero,0.275564719171191,0.95,0.263911534422036,0.287217903920347,12
+spanish,same_language_over_other_language,spanish_same_language_over_other_language,Spanish same-language versus other-language rows,directional,learning_curve_auc,0.236685811102573,0.95,0.227439035070699,0.245932587134446,12
+german,same_language_over_other_language,german_same_language_over_other_language,German same-language versus other-language rows,directional,step_zero,0.199033647622282,0.95,0.186046077596939,0.212021217647624,12
+german,same_language_over_other_language,german_same_language_over_other_language,German same-language versus other-language rows,directional,learning_curve_auc,0.196544818153213,0.95,0.183986247902621,0.209103388403806,12
+spanish,co_trained_and_cross_run_equivalence,spanish_co_trained_minus_same_language_other_run,Spanish co-trained minus same-language other-run rows,equivalence,step_zero,0.0260359103976962,0.9,0.0205630857883521,0.0315087350070406,12
+spanish,co_trained_and_cross_run_equivalence,spanish_co_trained_minus_same_language_other_run,Spanish co-trained minus same-language other-run rows,equivalence,learning_curve_auc,0.0225443215959655,0.9,0.0185261587322419,0.0265624844596892,12
+german,co_trained_and_cross_run_equivalence,german_co_trained_minus_same_language_other_run,German co-trained minus same-language other-run rows,equivalence,step_zero,0.024200259454375,0.9,0.0200382659612369,0.0283622529475132,12
+german,co_trained_and_cross_run_equivalence,german_co_trained_minus_same_language_other_run,German co-trained minus same-language other-run rows,equivalence,learning_curve_auc,0.024277952546891,0.9,0.0214694641639694,0.0270864409298125,12

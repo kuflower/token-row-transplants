@@ -1,0 +1,4 @@
+claim_id,claim,kind,decision,adjusted_p,alpha,multiplicity
+co_trained_and_cross_run_equivalence,Co-trained and same-language cross-run rows within the 0.05 equivalence range,equivalence,equivalent,3.84430106522565e-06,0.05,holm_across_three_claims
+same_language_over_other_language,Same-language rows over other-language rows,directional,supported,1.86061761050945e-12,0.05,holm_across_three_claims
+same_language_cross_run_effect,Spelling effect from same-language rows trained in another run,directional,supported,2.77109951601274e-14,0.05,holm_across_three_claims

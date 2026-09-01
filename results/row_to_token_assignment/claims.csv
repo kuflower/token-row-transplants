@@ -1,0 +1,3 @@
+claim_id,claim,kind,decision,adjusted_p,alpha,multiplicity
+correct_assignment_advantage,Correctly assigned rows over reassigned rows,directional,supported,3.33302849099128e-12,0.05,holm_across_two_claims
+remaining_effect_after_reassignment,Spelling effect remaining after reassignment within the 0.10 equivalence range,equivalence,equivalent,0.002542045967706,0.05,holm_across_two_claims

@@ -1,0 +1,3 @@
+method,resampling_unit,replicates,random_seed,smallest_correct_assignment_percentile_ci95_low,largest_absolute_remaining_effect_percentile_endpoint
+conditional_fixed_normalization,english_word,1000,20260824,0.0969491471195789,0.125083982080895
+full_estimator_restandardized,english_word,1000,20260824,0.0979110057060029,0.124367530748379
