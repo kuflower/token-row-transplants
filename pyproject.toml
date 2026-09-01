@@ -33,7 +33,7 @@ dev = [
   "matplotlib>=3.9,<4",
   "mypy>=1.14,<2",
   "nbconvert>=7,<8",
-  "pandas>=2,<3",
+  "pandas>=2,<4",
   "pre-commit>=4,<5",
   "pytest>=8,<10",
   "ruff>=0.9,<1",
@@ -46,7 +46,7 @@ notebook = [
   "ipykernel>=6,<8",
   "matplotlib>=3.9,<4",
   "nbconvert>=7,<8",
-  "pandas>=2,<3",
+  "pandas>=2,<4",
   "scipy>=1.14,<2",
 ]
 # Model training, probe evaluation, and analysis.
@@ -55,7 +55,7 @@ run = [
   "numpy==2.5.1",
   "torch>=2.8,<3",
   "tokenizers>=0.22,<1",
-  "pandas>=2,<3",
+  "pandas>=2,<4",
   "scipy>=1.14,<2",
 ]
 
